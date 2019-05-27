@@ -15,7 +15,10 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  calls.length
+  new_arr = []
+  calls.each do |call|
+    new_arr << call.length
+  end
 end
 
 def find_the_cheese# code an argument here
