@@ -19,6 +19,7 @@ def long_planeteer_calls(calls)
   calls.each do |call|
     new_arr << call.length
   end
+  new_arr.include?(call.length > 4)
 end
 
 def find_the_cheese# code an argument here
